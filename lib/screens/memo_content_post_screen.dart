@@ -67,7 +67,8 @@ class MemoContentPostScreen extends StatelessWidget {
                     Container(
                       width: _screenSize.width * 0.85,
                       child: TextField(
-                        decoration: InputDecoration(),
+                        decoration: InputDecoration(
+                        hintText: "先生が特に強調していた所や重要なキーワードなど"),
                         maxLines: 2,
                         onChanged: (value) {
                           text_first = value;
@@ -97,7 +98,8 @@ class MemoContentPostScreen extends StatelessWidget {
                     Container(
                       width: _screenSize.width * 0.85,
                       child: TextField(
-                        decoration: InputDecoration(),
+                        decoration: InputDecoration(
+                        hintText: "間違いやすい問題、一緒に復習しておきたい問題など"),
                         maxLines: 2,
                         onChanged: (value) {
                           text_second = value;
@@ -127,7 +129,8 @@ class MemoContentPostScreen extends StatelessWidget {
 //                     Container(
 //                       width: _screenSize.width * 0.85,
 //                       child: TextField(
-//                         decoration: InputDecoration(),
+//                         decoration: InputDecoration(
+                           hintText: "間違いやすい問題、一緒に復習しておきたい問題など"),
 //                         maxLines: 2,
 //                       ),
 //                     ),
