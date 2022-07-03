@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24286984737",
+    "project_id": "benessesharecontents",
+    "storage_bucket": "benessesharecontents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24286984737:android:0b951437a2bfec7ad44160",
+        "android_client_info": {
+          "package_name": "com.benessetanaka.benesse_tanaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24286984737-cpc00c2gach474qvvdiglnfb7ddjjetq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiVr-08x2T-6OeYw4Hxo0ho7w1SKTqpFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24286984737-cpc00c2gach474qvvdiglnfb7ddjjetq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
