@@ -173,11 +173,14 @@ class MemoContentPostScreen extends StatelessWidget {
             TextField(
             ),
             RaisedButton(
-                child: Text("register"),
+                child: Text("投稿"),
                 onPressed: () {
-
-                },
-            ),
+                   Navigator.popUntil(context, ModalRoute.withName("/home"));
+                }
+                    highlightElevation: 16,
+                    highlightColor: Colors.blue,
+                    onHighlightChanged: (value) {},
+             ),
           ],
         ),
         ddd
